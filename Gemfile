@@ -11,8 +11,10 @@ end
 group :production do
 gem 'pg'
 end
-#adding bcrypt ruby as suggested in stackoverflow
+# adding bcrypt ruby as suggested in stackoverflow
 gem 'bcrypt-ruby', '~>3.0.0'
+# adding rails_12factor gem as needed for heroku
+gem 'rails_12factor'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
